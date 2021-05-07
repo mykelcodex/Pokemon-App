@@ -22,7 +22,7 @@
         :loading="loading"
       />
     </div>
-    <div ref="pokemon" v-if="searchResult">
+    <div v-if="searchResult">
       <SearchPokeCard
         :pokeData="searchResult"
         :loading="loading"
